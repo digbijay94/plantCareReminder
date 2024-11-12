@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div-div-div">
+    <form class="one"style="">
+        <img src="https://cdn1.vectorstock.com/i/1000x1000/44/20/border-template-with-green-plants-vector-27144420.jpg"style="height:900px;width:1600px;position:fixed;margin-top:0;">
+        <div class="divv"style="height:400px;width:500px;border-radius:60px;border:15px groove #84de4cb7;position:fixed;
+        position: absolute;
+                top: 190px;
+                left: 430px;">
+        <div class="container"style="margin-top:0%;">
+            <form id="myForm"method="post"name="form_my">
+                <div class="name_user"style="position: absolute;
+                top: 50px;
+                left: 300px;">
+                    <label for="userName" style="margin-left:-200px;font-size:40px;color:black;">Enter Username</label><br>
+                <input type="text"id="userName"placeholder=""style="margin-left:-200px;width:200px;height:25px;font-size:25px;color:#84de4cb7;">
+                </div>
+                <br>
+                <div class="password_user"style="margin-top:10%;position: absolute;
+                top: 100px;
+                left: 50px;">
+                    <label for="password_user"style="margin-left:50px;font-size:40px;color:black;">Enter Password</label><br>
+                <input type="password"id="password_user"placeholder=""style="margin-left:50px;width:200px;height:25px;font-size:25px;color:#84de4cb7;">
+                </div>
+               <input type="button"onclick="login ()"id="submit"value="login">
+            </div>
+            </form>
+</div>
+<div ><p id="text_show"></p></div>
+    </form>
+</div>
+<script>
+
+function login(){
+    let userName =document.getElementById("userName").value;
+    let password2 =document.getElementById("password_user").value;
+    let text_show=document.getElementById("text_show");
+let website_username="plant";
+let website_password="123";
+if(userName==website_username && password2==website_password){
+    window.location="frontpage1.html" 
+    
+    
+}
+else if(userName==""&&password2==""){
+    alert("please enter the username and password");
+}
+else if(userName==website_username&&password2!=website_password){
+    document.getElementById("userName").style.border="1px solid green"
+    document.getElementById("password_user").style.border="1px solid red"
+    text_show.innerHTML="Here username is correct but the password is incorrect!"
+}
+else if(userName!=website_username && password2==website_password){
+    document.getElementById("userName").style.border="1px solid red"
+    document.getElementById("password_user").style.border="1px solid green"
+    text_show.innerHTML="Here username is not correct but the password is correct!"
+}
+else{
+     document.getElementById("userName").style.border="1px solid green"
+    document.getElementById("password_user").style.border="1px solid red"
+}
+
+
+
+}
+
+
+
+
+
+
+</script>
+    <style>
+        .div-div-div{
+            margin-top:0;
+            height:300px;
+            width:500px;
+            border-width:10px black ;
+            border-radius:10% ;
+
+        }
+#submit:hover{
+background-color:#e0301db3;;
+
+}
+#submit{
+  position: absolute;
+  top: 70%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c96b459d;
+  color: rgba(56, 67, 227, 0.892);
+  font-size: 30px;
+  font-weight: 200;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10em;
+  text-align: center;
+  width:120px;
+  
+}
+
+
+
+    </style>
+</body>
+</html>

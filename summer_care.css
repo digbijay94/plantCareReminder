@@ -1,0 +1,210 @@
+.heading{
+    height:150px;
+    width:1200px;
+background-image:url("") ;
+margin-top:0px;
+}
+#two{
+    color:#47a8b5;
+    font-size:xx-large;
+}
+.one{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     margin-top: 90px;
+
+     
+     
+}
+#flower1   
+{
+  height: 300px;
+  width: 250px;
+  margin-right:4px;
+  margin-bottom:4px;
+  border-radius:12px;
+  background-size:250px;
+  background-position:50% -40%;
+  text-align:center;
+  font-size: large;
+  color:black;
+  font-weight:bold;
+  text-shadow:2px 2px 2px blueviolet;
+  border-style:solid;
+  border-width: 10PX;
+  border-color: rgb(9, 227, 97);
+  -webkit-border-radius:12px;
+  -moz-border-radius:12px;
+  -ms-border-radius:12px;
+  -o-border-radius:12px;
+}
+#flower2{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:12px;
+    text-align-last:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    background-size:250px;
+    background-position:50% 80%;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+#flower3{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:12px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    background-position:50% 80%;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+#flower4{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:12px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    background-position:50% 95%;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+#flower5{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:10px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    background-image:url("");
+    background-position:50% 95%;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+#flower6{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:10px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+#flower7{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:10px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+#flower8{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:10px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+#flower9{
+    height: 300px;
+    width: 250px;
+    margin-right:4px;
+    margin-bottom:4px;
+    border-radius:10px;
+    text-align:center;
+    font-size: large;
+    color:black;
+    font-weight:bold;
+    text-shadow:2px 2px 2px blueviolet;
+    border-style:solid;
+    border-width: 10PX;
+    border-color: rgb(9, 227, 97);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+body{
+  
+}
+#enterswitch{
+  margin-top:240px;
+}
+#submit{
+  background-color: #1b99bf;
+  border-radius: 10em;
+  
+}
